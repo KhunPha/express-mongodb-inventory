@@ -8,8 +8,8 @@
     ],
     "routes": [
       {
-        "src": "/user/register",
-        "dest": "/"
+        "src": "/(.*)",
+        "dest": "/user/register"
       }
     ]
 }
